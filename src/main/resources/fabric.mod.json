@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "catclient",
+  "version": "${version}",
+  "name": "Cat Client",
+  "description": "PvP HUD client: cooldowns, effects, armor, keystrokes, CPS, zoom, fullbright and more.",
+  "authors": ["Cat"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.catclient.CatClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
